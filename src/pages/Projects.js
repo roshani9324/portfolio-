@@ -4,10 +4,10 @@ import ProjectCard from "../components/Projects/ProjectCards";
 import Particle from "../components/Particle";
 import leaf from ".././Assets/Projects/leaf.png";
 import emotion from ".././Assets/Projects/emotion.png";
-import editor from ".././Assets/Projects/codeEditor.png";
-import chatify from ".././Assets/Projects/chatify.png";
+import zerodha from ".././Assets/Projects/zerodhaApplication.png";
+import vedio from ".././Assets/Projects/vedio-calling.png";
 import suicide from ".././Assets/Projects/suicide.png";
-import bitsOfCode from ".././Assets/Projects/blog.png";
+import InvoiceAIGenerator from ".././Assets/Projects/InvoiceAI.png";
 
 function Projects() {
   return (
@@ -23,9 +23,9 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={vedio}
               isBlog={false}
-              title="Chatify"
+              title="vedio-calling"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               ghLink="https://github.com/roshani9324/vedio_calling_app"
               demoLink="https://vedio-calling-app-pied.vercel.app/"
@@ -34,23 +34,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={InvoiceAIGenerator}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="InvoiceAI – AI-Powered Invoice Generator"
+              description="AI-powered invoice management application that extracts invoice details from text using AI, stores invoices securely, and provides an intuitive dashboard for managing invoice records. "
+              ghLink="https://github.com/roshani9324/Invoice-AI"
+              demoLink="https://invoice-ai-xi-two.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={zerodha}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Zerodha clone"
+              description="Full-stack Zerodha clone with React, Express, Node.js, and MongoDB featuring a trading dashboard, holdings, positions, and responsive UI."
+              ghLink="https://github.com/roshani9324/zerodha-application-"
+              demoLink="https://zerodha-application-wqdw-five.vercel.app/"
             />
           </Col>
 
