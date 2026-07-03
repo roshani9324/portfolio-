@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCards";
 import Particle from "../components/Particle";
-import leaf from ".././Assets/Projects/leaf.png";
+import chatify from ".././Assets/Projects/stremify.png";
 import emotion from ".././Assets/Projects/emotion.png";
 import zerodha from ".././Assets/Projects/zerodhaApplication.png";
 import vedio from ".././Assets/Projects/vedio-calling.png";
@@ -56,12 +56,18 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={chatify}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Streamify — Real-Time Video Calling Platform"
+              description="Full-stack video calling and messaging platform built with the MERN 
+stack, featuring JWT-based authentication, real-time chat via Stream 
+Chat SDK, and WebRTC video calls. Implemented secure cross-origin 
+session handling, friend request system, and language-exchange 
+matchmaking. Deployed with separate frontend (Vercel) and backend 
+(Render) hosting, resolving production-specific challenges around 
+CORS and cross-domain cookie authentication."
+              ghLink="https://github.com/roshani9324/stremify-Application"
+              demoLink="https://stremify-application.vercel.app/"
             />
           </Col>
 
@@ -72,7 +78,7 @@ function Projects() {
               title="Ai For Social Good"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              //demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
