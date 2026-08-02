@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCards";
 import Particle from "../components/Particle";
 import chatify from ".././Assets/Projects/stremify.png";
-import emotion from ".././Assets/Projects/emotion.png";
+import emotion from ".././Assets/Projects/currencey_convter.png";
 import zerodha from ".././Assets/Projects/zerodhaApplication.png";
 import vedio from ".././Assets/Projects/vedio-calling.png";
-import suicide from ".././Assets/Projects/suicide.png";
+import virtual from ".././Assets/Projects/Virtual.png";
 import InvoiceAIGenerator from ".././Assets/Projects/InvoiceAI.png";
 
 function Projects() {
@@ -73,12 +73,14 @@ CORS and cross-domain cookie authentication."
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={virtual}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              //demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="AI Virtual Voice Assistant"
+              description="A voice-controlled AI assistant built with the MERN stack and Google Gemini API. Users can customize their assistant's name and appearance, then interact with it through natural voice commands to search the web, get real-time info, and perform quick actions.
+              What it does: Voice input & output — talks and listens like JARVIS  Understands natural language commands via Gemini AI  Secure authentication with JWT + bcrypt Customizable assistant — pick your own name and image  Can search Google/YouTube, open apps, tell time/date/weather — all through voice Fully responsive, deployed and live
+"
+              ghLink="https://github.com/roshani9324/Ai-Virtual-Assistant"
+              demoLink="https://ai-virtual-assistant-smoky.vercel.app/signup"
             />
           </Col>
 
@@ -86,11 +88,10 @@ CORS and cross-domain cookie authentication."
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+              title="Currency Exchange Rate Converter — React"
+              description="Built a responsive currency converter that fetches live exchange rates and lets users convert amounts between any two currencies in real time. The app includes a custom React hook that handles fetching and caching exchange rate data based on the selected base currency, keeping the UI logic clean and reusable.The interface features a reusable InputBox component for entering amounts and selecting currencies, along with a one-click swap button that instantly flips the  currencies without needing a page refresh. The design uses a full-screen background image with a frosted-glass card layout for a modern look, styled entirely with Tailwind CSS."
+              ghLink="https://github.com/roshani9324/Currency-Exchange-Rates-Converter"
+              demoLink="https://roshani9324.github.io/Currency-Exchange-Rates-Converter/"
             />
           </Col>
         </Row>
