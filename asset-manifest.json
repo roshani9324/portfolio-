@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-/static/css/main.d53a2606.css",
-    "main.js": "/portfolio-/static/js/main.2fde9274.js",
+    "main.js": "/portfolio-/static/js/main.3bb066f0.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio-/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/portfolio-/static/media/avatar.4a58e117e09ec7c90271.png",
+    "static/media/Virtual.png": "/portfolio-/static/media/Virtual.152da474c0ce7aa9fe71.png",
+    "static/media/currencey_convter.png": "/portfolio-/static/media/currencey_convter.3a44ba714cf7d3481a8f.png",
     "static/media/stremify.png": "/portfolio-/static/media/stremify.b822d848e5ccee733c93.png",
     "static/media/InvoiceAI.png": "/portfolio-/static/media/InvoiceAI.1715dda933a33f0b863b.png",
     "static/media/logo.png": "/portfolio-/static/media/logo.54f300a3ef35b158e88c.png",
-    "static/media/emotion.png": "/portfolio-/static/media/emotion.eabfc16e7a146ab15778.png",
-    "static/media/suicide.png": "/portfolio-/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/zerodhaApplication.png": "/portfolio-/static/media/zerodhaApplication.5c99c9a7b4b68146e3e2.png",
     "static/media/vedio-calling.png": "/portfolio-/static/media/vedio-calling.f39e8f0f875b47d33f55.png",
     "static/media/home-main.svg": "/portfolio-/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
@@ -38,12 +38,12 @@
     "static/media/MUI.svg": "/portfolio-/static/media/MUI.12e2df83693fe483729e8f9f76d4bee3.svg",
     "static/media/Firebase.svg": "/portfolio-/static/media/Firebase.c5e643a18f060de1d39eda5908abbb5f.svg",
     "main.d53a2606.css.map": "/portfolio-/static/css/main.d53a2606.css.map",
-    "main.2fde9274.js.map": "/portfolio-/static/js/main.2fde9274.js.map",
+    "main.3bb066f0.js.map": "/portfolio-/static/js/main.3bb066f0.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio-/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d53a2606.css",
-    "static/js/main.2fde9274.js"
+    "static/js/main.3bb066f0.js"
   ]
 }
